@@ -1,111 +1,117 @@
----
-title: Documentation
----
+<meta name="description" content="Explore the world of British Pick n Mix sweets, retro favourites, vegan treats and sweet gift ideas.">
+</head>
 
-Welcome to the Hexo documentation. If you encounter any problems when using Hexo, have a look at the [troubleshooting guide](troubleshooting.html), raise an issue on [GitHub](https://github.com/hexojs/hexo/issues) or start a topic on the [Google Group](https://groups.google.com/group/hexo).
+<body>
 
-## What is Hexo?
+<header>
+<h1>Welcome to Pick n Mix Sweets</h1>
+<p>
+Celebrating Britain's favourite sweet tradition.
+</p>
+</header>
 
-Hexo is a fast, simple and powerful blog framework. You write posts in [Markdown](http://daringfireball.net/projects/markdown/) (or other markup languages) and Hexo generates static files with a beautiful theme in seconds.
+<section>
 
-## Installation
+<h2>About Pick n Mix</h2>
 
-It only takes a few minutes to set up Hexo. If you encounter a problem and can't find the solution here, please [submit a GitHub issue](https://github.com/hexojs/hexo/issues) and we'll help.
+<p>
+Pick n Mix sweets have been enjoyed across the United Kingdom for generations.
+The idea is simple: choose your favourite sweets and create a personalised selection
+that suits your own taste.
+</p>
 
-{% youtube ARted4RniaU %}
+<p>
+From retro classics to modern vegan treats, Pick n Mix continues to be one of the
+most popular ways to enjoy confectionery.
+</p>
 
-### Requirements
+</section>
 
-Installing Hexo is quite easy and only requires the following beforehand:
+<section>
 
-- [Node.js](http://nodejs.org/) (See [Required Node.js version](#Required-Node-js-version))
-- [Git](http://git-scm.com/)
+<h2>Popular Sweet Categories</h2>
 
-If your computer already has these, congratulations! You can skip to the [Hexo installation](#Install-Hexo) step.
+<ul>
+<li>Retro British sweets</li>
+<li>Fizzy favourites</li>
+<li>Jelly sweets</li>
+<li>Chocolate treats</li>
+<li>Foam sweets</li>
+<li>Vegan Pick n Mix</li>
+<li>Sweet gift boxes</li>
+<li>Seasonal confectionery</li>
+</ul>
 
-If not, please follow the following instructions to install all the requirements.
+</section>
 
-### Install Git
+<section>
 
-- Windows: Download & install [git](https://git-scm.com/download/win).
-- Mac: Install it with [Homebrew](https://brew.sh/), [MacPorts](http://www.macports.org/) or [installer](http://sourceforge.net/projects/git-osx-installer/).
-- Linux (Ubuntu, Debian): `sudo apt-get install git-core`
-- Linux (Fedora, Red Hat, CentOS): `sudo yum install git-core`
+<h2>Why People Love Pick n Mix</h2>
 
-{% note warn For Mac users %}
-You may encounter some problems when compiling. Please install Xcode from App Store first. After Xcode is installed, open Xcode and go to **Preferences -> Download -> Command Line Tools -> Install** to install command line tools.
-{% endnote %}
+<p>
+The variety is part of the fun.
+Everyone can build their own perfect selection by mixing fruity,
+chewy, fizzy and chocolate favourites into one bag.
+</p>
 
-### Install Node.js
+<p>
+Pick n Mix sweets are popular for:
+</p>
 
-Node.js provides [official installer](https://nodejs.org/en/download/) for most platforms.
+<ul>
+<li>Birthday parties</li>
+<li>Movie nights</li>
+<li>Family gatherings</li>
+<li>Wedding favours</li>
+<li>Corporate gifts</li>
+<li>Holiday celebrations</li>
+</ul>
 
-Alternative installation methods:
+</section>
 
-- Windows: Install it with [nvs](https://github.com/jasongin/nvs/) (recommended) or [nvm](https://github.com/nvm-sh/nvm).
-- Mac: Install it with [Homebrew](https://brew.sh/) or [MacPorts](http://www.macports.org/).
-- Linux (DEB/RPM-based): Install it with [NodeSource](https://github.com/nodesource/distributions).
-- Others: Install it through respective package manager. Refer to [the guide](https://nodejs.org/en/download/package-manager/) provided by Node.js.
+<section>
 
-nvs is also recommended for Mac and Linux to avoid possible permission issue.
+<h2>Discover More Sweet Ideas</h2>
 
-{% note info Windows %}
-If you use the official installer, make sure **Add to PATH** is checked (it's checked by default).
-{% endnote %}
+<p>
+If you enjoy traditional British confectionery,
+retro sweets and colourful Pick n Mix selections,
+you can explore a wide range of products and gift ideas at:
+</p>
 
-{% note warn Mac / Linux %}
-If you encounter `EACCES` permission error when trying to install Hexo, please follow [the workaround](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally) provided by npmjs; overriding with root/sudo is highly discouraged.
-{% endnote %}
+<p>
+<strong>
+<a href="https://sweetsuk.co.uk/" target="_blank">
+SweetsUK.co.uk
+</a>
+</strong>
+</p>
 
-{% note info Linux %}
-If you installed Node.js using Snap, you may need to manually run `npm install` in the target folder when [initializing](/docs/commands#init) a blog.
-{% endnote %}
+</section>
 
-### Install Hexo
+<section>
 
-Once all the requirements are installed, you can install Hexo with npm:
+<h2>Fun Sweet Facts</h2>
 
-```bash
-$ npm install -g hexo-cli
-```
+<ul>
+<li>Pick n Mix allows complete personalisation.</li>
+<li>Retro sweets remain popular with all ages.</li>
+<li>Many modern selections now include vegan options.</li>
+<li>Sweet gift boxes make excellent presents for special occasions.</li>
+</ul>
 
-### Advanced installation and usage
+</section>
 
-Advanced users may prefer to install and use `hexo` package instead.
+<footer>
 
-```bash
-$ npm install hexo
-```
+<p>
+© 2026 Pick n Mix Sweets Information Hub.
+</p>
 
-Once installed, you can run Hexo in two ways:
+<p>
+Created for people who love traditional British sweets.
+</p>
 
-1. `npx hexo <command>`
-2. Linux users can set relative path of `node_modules/` folder:
+</footer>
 
-```bash
-echo 'PATH="$PATH:./node_modules/.bin"' >> ~/.profile
-```
-
-then run Hexo using `hexo <command>`
-
-### Required Node.js version
-
-If you are stuck with older Node.js, you can consider installing a past version of Hexo.
-
-Please note we do not provide bugfixes to past versions of Hexo.
-
-We highly recommend to always install the [latest version](https://www.npmjs.com/package/hexo?activeTab=versions) of Hexo and the [recommended version](#Requirements) of Node.js, whenever possible.
-
-| Hexo version | Minimum (Node.js version) | Less than (Node.js version) |
-| ------------ | ------------------------- | --------------------------- |
-| 8.0+         | 20.19.0                    | latest                      |
-| 7.0+         | 14.0.0                    | latest                      |
-| 6.2+         | 12.13.0                   | latest                      |
-| 6.0+         | 12.13.0                   | 18.5.0                      |
-| 5.0+         | 10.13.0                   | 12.0.0                      |
-| 4.1 - 4.2    | 8.10                      | 10.0.0                      |
-| 4.0          | 8.6                       | 8.10.0                      |
-| 3.3 - 3.9    | 6.9                       | 8.0.0                       |
-| 3.2 - 3.3    | 0.12                      | unknown                     |
-| 3.0 - 3.1    | 0.10 or iojs              | unknown                     |
-| 0.0.1 - 2.8  | 0.10                      | unknown                     |
+</body>
